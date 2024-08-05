@@ -1,5 +1,5 @@
 #include "monty.h"
-cmd_t cmd = {NULL, NULL, NULL, NULL, 0};
+cmd_t cmd = {NULL, NULL, NULL, 0};
 /**
  * main - monty code interpreter
  * @argc: number of arguments
