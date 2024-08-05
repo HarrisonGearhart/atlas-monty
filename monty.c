@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	size_t size = 0;
 	stack_t *stack = NULL;
 	ssize_t read_line = 1;
-	unsigned int counter = 0;
+	unsigned int line_count = 0;
 
 	if (argc != 2)
 	{
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		line_count++;
 
 		if (read_line > 0)
-			execute(content, &stack, counter, file);
+			execute(content, &stack, line_count, file);
 
 		free(content);
 	}
