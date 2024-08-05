@@ -11,7 +11,7 @@ void _pall(stack_t **head, unsigned int line_count)
 	(void)line_count;
 
 	h = *head;
-	if (h = NULL)
+	if ((h = NULL))
 		return;
 	while (h)
 	{
