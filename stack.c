@@ -17,3 +17,16 @@ void free_stack(stack_t *head)
 		head = aux;
 	}
 }
+/**
+ * _stack - free stack
+ * @head: first node(unused)
+ * @line_count: line counter
+ * Return: Void
+*/
+void _stack(stack_t **head, unsigned int line_count)
+{
+	(void)head;
+	(void)line_count;
+
+	cmd.lifi = 0;
+}
