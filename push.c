@@ -9,7 +9,7 @@ void _push(stack_t **head, unsigned int line_count)
 {
 	int n, i, flag = 0;
 
-	int i = 0;
+	i = 0;
 	if (cmd.arg)
 	{
 		if (cmd.arg[0] == '-')
@@ -42,5 +42,5 @@ void _push(stack_t **head, unsigned int line_count)
 	if (cmd.lifi == 0)
 		addnode(head, n);
 	else
-		addqueue(head, n);	
+		add_queue(head, n);	
 }
