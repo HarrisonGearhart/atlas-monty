@@ -43,7 +43,7 @@ typedef struct cmd_s
 } cmd_t;
 extern cmd_t cmd;
 
-void _push(stack_t **head, unsigned int number);
-void _pall(stack_t **head, unsigned int number);
+void _push(stack_t **head, unsigned int line_count);
+void _pall(stack_t **head, unsigned int line_count);
 
 #endif
