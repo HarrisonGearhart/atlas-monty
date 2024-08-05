@@ -49,6 +49,7 @@ void _queue(stack_t **head, unsigned int line_count);
 void _pint(stack_t **head, unsigned int line_count);
 void _pop(stack_t **head, unsigned int line_count);
 void _swap(stack_t **head, unsigned int line_count);
+void _add(stack_t **head, unsigned int line_count);
 
 void addnode(stack_t **head, int n);
 int execute(char *content, stack_t **stack, unsigned int line_count, FILE *file);
