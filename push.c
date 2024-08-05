@@ -28,7 +28,7 @@ void _push(stack_t **head, unsigned int line_count)
 			exit(EXIT_FAILURE);
 		}
 	}		
-	
+
 	else
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_count);
@@ -38,7 +38,7 @@ void _push(stack_t **head, unsigned int line_count)
 		exit(EXIT_FAILURE);
 	}
 	n = atoi(cmd.arg);
-	
+
 	if (cmd.lifi == 0)
 		addnode(head, n);
 	else
