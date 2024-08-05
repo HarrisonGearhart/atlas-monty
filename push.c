@@ -27,7 +27,8 @@ void _push(stack_t **head, unsigned int line_count);
 			free_stack(*head);
 			exit(EXIT_FAILURE);
 		}
-	}
+	}		
+	
 	else
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_count);
@@ -41,6 +42,5 @@ void _push(stack_t **head, unsigned int line_count);
 	if (cmd.lifi == 0)
 		addnode(head, n);
 	else
-		addqueue(head, n);
-	
+		addqueue(head, n);	
 }
