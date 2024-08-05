@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		content = NULL;
 		read_line = getline(&content, &size, file);
 		cmd.content = content;
-		counter++;
+		line_count++;
 
 		if (read_line > 0)
 			execute(content, &stack, counter, file);
