@@ -46,4 +46,6 @@ extern cmd_t cmd;
 void _push(stack_t **head, unsigned int line_count);
 void _pall(stack_t **head, unsigned int line_count);
 
+int execute(char *content, stack_t **stack, unsigned int line_count, FILE *file);
+
 #endif
