@@ -5,7 +5,7 @@
  * @line_count: line counter
  * Return: void
 */
-void _push(stack_t **head, unsigned int line_count);
+void _push(stack_t **head, unsigned int line_count)
 {
 	int n, i, flag = 0;
 
